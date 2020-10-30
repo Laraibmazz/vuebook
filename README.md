@@ -12,7 +12,7 @@ $ cd node-js-template
 $ npm run serve
 ```
 
-# Deploy to heroku
+## Deploy to heroku
 
 ```bash
 $ heroku create
@@ -21,7 +21,7 @@ $ git commit -m "vuebook"
 $ git push heroku master
 ```
 
-## OR
+### OR
 
 Learn to deploy to heroku
 
