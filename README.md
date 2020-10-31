@@ -1,6 +1,6 @@
 # vue
 
-## Project setup
+## Project setu
 ```
 npm install
 ```
