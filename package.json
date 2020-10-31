@@ -1,6 +1,6 @@
 {
-  "name": "vue",
-  "version": "0.1.0",
+  "name": "vuebook",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "start": "node index.js",
@@ -44,5 +44,17 @@
     "> 1%",
     "last 2 versions",
     "not dead"
-  ]
+  ],
+  "description": "## Project setu ``` npm install ```",
+  "repository": {
+    "type": "git",
+    "url": "https://git.heroku.com/dark-dungeon-11554.git"
+  },
+  "keywords": [
+    "Express",
+    "Node",
+    "Vue"
+  ],
+  "author": "Laraib",
+  "license": "ISC"
 }
