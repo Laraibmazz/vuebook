@@ -14,10 +14,5 @@ export default {
   components: {
     HelloWorld,
   },
-  mounted: async () => {
-    var get = await fetch("localhost:8080/about");
-    var full = await get.json();
-    console.log(full);
-  },
 };
 </script>

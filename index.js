@@ -1,21 +1,13 @@
 const express = require('express')
 const app = express()
-var port = process.env.PORT || 8080
+var port = process.env.PORT || 3000
 
-app.use('/',
-    express.static('dist')
-)
-
-app.use('/:channel', (req, res) => {
-    res.send(`This is channel: ${req.params.channel}`)
+app.use('/:channel/:vid', (req, res) => {
+    res.send(`
+    [
+        "a","b"
+    ]
+    `)
 })
-
-app.use('/',
-    express.static('dist')
-)
-
-app.use('/',
-    express.static('dist')
-)
 
 app.listen(port)
