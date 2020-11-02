@@ -1,1 +1,1 @@
-web: json-server --watch app.json
+web: node index.js
