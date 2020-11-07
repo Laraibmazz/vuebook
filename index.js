@@ -18,6 +18,7 @@ app.use('/js', express.static('dist/js'))
 app.use('/img', express.static('dist/img'))
 
 
+
 app.listen(PORT, () => {
     console.log(`Server started on ${PORT}`);
 });

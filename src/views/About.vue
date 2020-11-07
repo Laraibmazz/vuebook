@@ -8,12 +8,14 @@
 export default {
   data() {
     return {
-      a: 21
-    }
+      a: 21,
+    };
   },
   async mounted() {
-    var fet = await fetch('http://localhost:3000/route/index/2')
-    await console.log(fet)
-  }
-}
+    var fet = await fetch(
+      "http://dark-dungeon-11554.herokuapp.com/route/index/2"
+    );
+    await console.log(fet);
+  },
+};
 </script>
