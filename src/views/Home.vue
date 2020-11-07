@@ -1,5 +1,15 @@
 <template>
   <div class="home">
-    <h1>Vue.js</h1>
+    <HelloWorld msg='Vue.js' />
   </div>
 </template>
+
+<script>
+import HelloWorld from '../components/HelloWorld.vue'
+
+export default {
+  components: {
+    HelloWorld,
+  },
+};
+</script>

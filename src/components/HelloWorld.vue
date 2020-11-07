@@ -1,7 +1,7 @@
 <template>
   <div class="hello">
-    <div v-for="a in a" :key="a.id">
-      <a href=""> {{ a.id }}: {{ a.title }} </a>
+    <div>
+      <h1>Hello + {{ msg }}</h1>
     </div>
   </div>
 </template>
@@ -11,17 +11,6 @@ export default {
   name: "HelloWorld",
   props: {
     msg: String,
-  },
-  data() {
-    return {
-      a: 1,
-    };
-  },
-  async mounted() {
-    var get = await fetch("http://localhost:3000/posts");
-    var full = await get.json();
-    await console.log(full);
-    this.$data.a = full;
   },
 };
 </script>
